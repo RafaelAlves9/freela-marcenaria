@@ -2,6 +2,6 @@
 export default function Works() {
     
     return(
-        <h1>Works</h1>
+        <h1 id="works">Works</h1>
     )
 }

@@ -17,7 +17,7 @@ export default function NavBar(){
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
                         <Nav.Link href="#aboutus"><Opicion>Sobre nós</Opicion></Nav.Link>
-                        <Nav.Link href="#b"><Opicion>Trabalhos</Opicion></Nav.Link>
+                        <Nav.Link href="#works"><Opicion>Trabalhos</Opicion></Nav.Link>
                         <Nav.Link href="#c"><Opicion>Valores</Opicion></Nav.Link>
                         <Nav.Link href="#d"><Opicion>Clientes</Opicion></Nav.Link>
                     </Nav>
