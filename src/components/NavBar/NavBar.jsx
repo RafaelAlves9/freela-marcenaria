@@ -8,7 +8,7 @@ import {
     Opicion
 } from './Styled'
 
-export default function NavBar() {
+export default function NavBar(){
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
@@ -16,7 +16,7 @@ export default function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#a"><Opicion>Sobre nós</Opicion></Nav.Link>
+                        <Nav.Link href="#aboutus"><Opicion>Sobre nós</Opicion></Nav.Link>
                         <Nav.Link href="#b"><Opicion>Trabalhos</Opicion></Nav.Link>
                         <Nav.Link href="#c"><Opicion>Valores</Opicion></Nav.Link>
                         <Nav.Link href="#d"><Opicion>Clientes</Opicion></Nav.Link>

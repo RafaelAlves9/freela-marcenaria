@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
       <AboutUs />
       <Works />
-      <Feedbacks />
-      <Values />
+      {/* <Feedbacks /> */}
+      {/* <Values /> */}
     </>
   )
 }

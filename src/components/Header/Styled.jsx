@@ -11,7 +11,7 @@ export const Head = styled.header`
     justify-content: center;
     align-items: center;
 `;
-export const HeadBackGroung = styled.div`
+export const HeadBackGround = styled.div`
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
@@ -20,33 +20,29 @@ export const ContentHeader = styled.div`
     text-align: center;
     font-family: 'Hind', sans-serif;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 export const SubTittle = styled.h2`
     font-size: 20px;
+    padding: 0 0 0 10px;
     color: #fff;
     font-weight: lighter;
     letter-spacing: 10px;
+    @media (max-width:600px){
+        font-size: 17px;
+        text-align: left;
+    }
 `;
 export const Tittle = styled.h1`
     font-size: 80px;
     color: #FDBF60;
     font-weight: 800;
-    padding-bottom: 50px;
+    padding: 0 0 50px 10px;
     letter-spacing: 10px;
-`;
-export const BottonProject = styled.span`
-    background-color: #FDBF60;
-    padding: 15px 40px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: .3s;
-    letter-spacing: 5px;
-    :hover{
-        color: #FDBF60;
-        background-color: #000;
-        transition: .5s;
-    }
-    @media (max-width:800px){
-        text-align: center;
+    @media (max-width:600px){
+        font-size: 50px;
+        text-align: left;
     }
 `;
