@@ -18,19 +18,21 @@ export const HeadBackGroung = styled.div`
 `
 export const ContentHeader = styled.div`
     text-align: center;
-    font-family: 'Hind';
+    font-family: 'Hind', sans-serif;
     position: absolute;
 `;
 export const SubTittle = styled.h2`
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     font-weight: lighter;
+    letter-spacing: 10px;
 `;
 export const Tittle = styled.h1`
     font-size: 80px;
     color: #FDBF60;
-    font-weight: 700;
+    font-weight: 800;
     padding-bottom: 50px;
+    letter-spacing: 10px;
 `;
 export const BottonProject = styled.span`
     background-color: #FDBF60;
@@ -38,10 +40,13 @@ export const BottonProject = styled.span`
     border-radius: 25px;
     cursor: pointer;
     transition: .3s;
-
+    letter-spacing: 5px;
     :hover{
         color: #FDBF60;
         background-color: #000;
         transition: .5s;
+    }
+    @media (max-width:800px){
+        text-align: center;
     }
 `;
