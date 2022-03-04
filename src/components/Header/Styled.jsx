@@ -16,7 +16,7 @@ export const ContentHeader = styled.div`
     font-family: 'Hind';
 `;
 export const SubTittle = styled.h2`
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     font-weight: lighter;
 `;
@@ -27,15 +27,15 @@ export const Tittle = styled.h1`
     padding-bottom: 50px;
 `;
 export const BottonProject = styled.span`
-    width: fit-content;
-    height: fit-content;
     background-color: #FDBF60;
     padding: 15px 40px;
     border-radius: 25px;
     cursor: pointer;
+    transition: .3s;
+
     :hover{
         color: #FDBF60;
         background-color: #000;
         transition: .5s;
     }
-`
+`;

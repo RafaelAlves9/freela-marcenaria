@@ -3,7 +3,10 @@ import {
     Container,
     Nav
 } from 'react-bootstrap';
-import { Logo } from './Styled'
+import {
+    Logo,
+    Opicion
+} from './Styled'
 
 export default function NavBar() {
     return(
@@ -13,10 +16,10 @@ export default function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#a">Sobre nós</Nav.Link>
-                        <Nav.Link href="#b">Trabalhos</Nav.Link>
-                        <Nav.Link href="#c">Valores</Nav.Link>
-                        <Nav.Link href="#d">Clientes</Nav.Link>
+                        <Nav.Link href="#a"><Opicion>Sobre nós</Opicion></Nav.Link>
+                        <Nav.Link href="#b"><Opicion>Trabalhos</Opicion></Nav.Link>
+                        <Nav.Link href="#c"><Opicion>Valores</Opicion></Nav.Link>
+                        <Nav.Link href="#d"><Opicion>Clientes</Opicion></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
