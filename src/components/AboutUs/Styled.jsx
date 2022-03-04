@@ -20,7 +20,6 @@ export const ContentAboutUs = styled.div`
 export const SubTittle = styled.h2`
     font-size: 15px;
     color: #FDBF60;
-    font-family: 'Hind', sans-serif;
 `
 export const Tittle = styled.h1`
     font-size: 28px;
