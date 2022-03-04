@@ -11,9 +11,15 @@ export const Head = styled.header`
     justify-content: center;
     align-items: center;
 `;
+export const HeadBackGroung = styled.div`
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+`
 export const ContentHeader = styled.div`
     text-align: center;
     font-family: 'Hind';
+    position: absolute;
 `;
 export const SubTittle = styled.h2`
     font-size: 22px;

@@ -1,5 +1,6 @@
 import {
     Head,
+    HeadBackGroung,
     ContentHeader,
     SubTittle,
     Tittle,
@@ -9,6 +10,7 @@ import {
 export default function Header() {
     return(
         <Head>
+            <HeadBackGroung />
             <ContentHeader>
                 <SubTittle>TUDO PARA O SEU ESCRITÓRIO</SubTittle>
                 <Tittle>BAIA'S SOUZA</Tittle>
