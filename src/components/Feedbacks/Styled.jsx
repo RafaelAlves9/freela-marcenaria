@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 export const Header = styled.section`
   background-color: #000;
   text-align: center;
