@@ -32,7 +32,6 @@ export const SubTittle = styled.h2`
     letter-spacing: 10px;
     @media (max-width:600px){
         font-size: 17px;
-        text-align: left;
     }
 `;
 export const Tittle = styled.h1`
@@ -43,6 +42,5 @@ export const Tittle = styled.h1`
     letter-spacing: 10px;
     @media (max-width:600px){
         font-size: 50px;
-        text-align: left;
     }
 `;

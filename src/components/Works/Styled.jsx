@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WorkSection = styled.section`
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     background-color: #E7E6E6;
     display: flex;
     justify-content: center;
@@ -11,18 +11,25 @@ export const WorkSection = styled.section`
 export const ContentWork = styled.div`
     padding: 70px 10px;
     width: 95%;
-    max-width: 1000px;
 `;
 export const Gallery = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 50px 0;
 `;
 export const ImageGalerry = styled.img`
-    max-width: 500px;
-    width: 19%;
+    min-width: 350px;
+    width: 30%;
+    height: 350px;
+    padding: 5px 0;
     overflow: hidden;
-    src{
-        width: 100%;
+    transition: .3s;
+    :hover{
+        transform: scale(1.07);
+        
+    }
+    @media (max-width:600px){
+        height: 250px;
     }
 `;

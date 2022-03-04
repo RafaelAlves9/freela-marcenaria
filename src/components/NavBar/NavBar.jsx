@@ -18,8 +18,8 @@ export default function NavBar(){
                     <Nav>
                         <Nav.Link href="#aboutus"><Opicion>Sobre nós</Opicion></Nav.Link>
                         <Nav.Link href="#works"><Opicion>Trabalhos</Opicion></Nav.Link>
-                        <Nav.Link href="#c"><Opicion>Valores</Opicion></Nav.Link>
-                        <Nav.Link href="#d"><Opicion>Clientes</Opicion></Nav.Link>
+                        <Nav.Link href="#values"><Opicion>Valores</Opicion></Nav.Link>
+                        <Nav.Link href="#feedback"><Opicion>Clientes satisfeitos</Opicion></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
