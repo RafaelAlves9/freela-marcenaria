@@ -4,6 +4,7 @@ import BackGround from '../../images/pessoa4.png'
 export const Header = styled.section`
   background-image: url(${BackGround});
   background-size: cover;
+  background-position: center;
   text-align: center;
   width: 100%;
   height: 400px;
