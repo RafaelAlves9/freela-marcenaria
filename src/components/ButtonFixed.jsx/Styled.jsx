@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const ButtonContainer = styled.div`
     max-width: 60px;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 40px;
+    right: 40px;
     [src]{
         width: 100%;
     }

@@ -22,7 +22,7 @@ export default function Header() {
                 <Tittle
                 data-aos="fade-left"
                 data-aos-duration="1500"
-                >BAIA'S SOUZA</Tittle>
+                >BAIAS SOUZA</Tittle>
             </ContentHeader>
         </Head>
     )

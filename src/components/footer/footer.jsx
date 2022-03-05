@@ -1,13 +1,14 @@
 import { 
     FooterSection,
-
+    ContentFooter,
+    TittleFooter
 } from "./Styled"
 
 export default function Footer() {
     
     return(
         <FooterSection>
-            <span>DIREITOS RESERVADOS ©2022 BAIA'S SOUZA</span>
+            <TittleFooter>DIREITOS RESERVADOS ©2022</TittleFooter>
         </FooterSection>
     )
 }
