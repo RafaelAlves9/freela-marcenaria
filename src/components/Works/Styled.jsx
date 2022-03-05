@@ -19,7 +19,7 @@ export const Gallery = styled.div`
     padding: 50px 0;
 `;
 export const ImageGalerry = styled.img`
-    min-width: 350px;
+    min-width: 330px;
     width: 30%;
     height: 350px;
     padding: 5px 0;
