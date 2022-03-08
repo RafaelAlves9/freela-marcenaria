@@ -3,22 +3,29 @@ import {
     ContentValues,
     SquareValue,
     TittleSquare,
-    ResumeSquare
+    ResumeSquare,
+    SquareArea
 } from './Styled';
 
-export default function Values(){
+import {
+    Tittle
+} from '../AboutUs/Styled';
 
+export default function Values(){
     return(
         <ValuesSection id='values'>
             <ContentValues>
-                <SquareValue>
-                    <TittleSquare>Visão</TittleSquare>
-                    <ResumeSquare>Ser a marcenaria de confiança do seu negócio e com o menor preço do Rio de Janeiro.</ResumeSquare>
-                </SquareValue>
-                <SquareValue>
-                    <TittleSquare>Valores</TittleSquare>
-                    <ResumeSquare>Honestidade, Bom senso, Qualidade, Inovação e Competitividade.</ResumeSquare>
-                </SquareValue>
+                <Tittle>NOSSOS VALORES DE TRABALHO</Tittle>
+                <SquareArea>
+                    <SquareValue>
+                        <TittleSquare>Visão</TittleSquare>
+                        <ResumeSquare>Ser a marcenaria de confiança do seu negócio e com o menor preço do Rio de Janeiro.</ResumeSquare>
+                    </SquareValue>
+                    <SquareValue>
+                        <TittleSquare>Valores</TittleSquare>
+                        <ResumeSquare>Honestidade, Bom senso, Qualidade, Inovação e Competitividade.</ResumeSquare>
+                    </SquareValue>
+                </SquareArea>
             </ContentValues>
         </ValuesSection>
     )

@@ -14,8 +14,8 @@ export const AboutUsSection = styled.section`
 `
 export const ContentAboutUs = styled.div`
     max-width: 1000px;
-    text-align: center;
     padding: 70px 0;
+    text-align: center;
 ` 
 export const SubTittle = styled.h2`
     font-size: 15px;

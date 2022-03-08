@@ -6,6 +6,7 @@ import Header from "../components/Header/Header";
 import Values from "../components/Values/Values";
 import Footer from "../components/footer/footer";
 import ButtonFixed from "../components/ButtonFixed.jsx/Button";
+import Description from "../components/Description/Description";
 
 export default function Home() {
   return(
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <AboutUs />
       <Works />
+      <Description />
       <Values />
       <Feedbacks />
       <Footer />

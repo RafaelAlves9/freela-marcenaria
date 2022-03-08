@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const WorkSection = styled.section`
     width: 100%;
     height: fit-content;
-    background-color: #E7E6E6;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     text-align: center;
