@@ -24,7 +24,8 @@ export const SquareArea = styled.div`
 export const SquareValue = styled.div`
     width: 100%;
     max-width: 400px;
-    height: 250px;
+    min-height: 250px;
+    height: fit-content;
     border: 2px solid #E7E6E6;
     margin: 5px 5px;
 `
