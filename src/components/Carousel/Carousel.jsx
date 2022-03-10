@@ -5,11 +5,12 @@ import {
   Imagem
 } from './Styled'
 import Img1 from '../../images/1.png'
-import Img2 from '../../images/2.png'
-import Img3 from '../../images/3.png'
-import Img4 from '../../images/4.png'
-import Img5 from '../../images/5.png'
+import Img2 from '../../images/2.jpeg'
+import Img3 from '../../images/3.jpeg'
+import Img4 from '../../images/4.jpeg'
+import Img5 from '../../images/5.jpeg'
 import Img6 from '../../images/6.png'
+import Img7 from '../../images/7.png'
 
 
 export default function Feedback() {
@@ -19,26 +20,26 @@ export default function Feedback() {
           <ContentCarousel>
             <Carousel>
               <Carousel.Item>
-                  <Imagem src={Img}/>
-              </Carousel.Item>
-              {/* <Carousel.Item>
-              <Space>
-                  <Name>bbbbbbbbb</Name>
-                  <SubName>venha jaaaaaaaa</SubName>
-                </Space>
+                  <Imagem src={Img1}/>
               </Carousel.Item>
               <Carousel.Item>
-                <Space>
-                  <Name>ccccccccccc</Name>
-                  <SubName>venha jaaaaaaaa</SubName>
-                </Space>
+                  <Imagem src={Img2}/>
               </Carousel.Item>
               <Carousel.Item>
-                <Space>
-                  <Name>ddddddddddddd</Name>
-                  <SubName>venha jaaaaaaaa</SubName>
-                </Space>
-              </Carousel.Item> */}
+                  <Imagem src={Img3}/>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <Imagem src={Img4}/>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <Imagem src={Img5}/>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <Imagem src={Img6}/>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <Imagem src={Img7}/>
+              </Carousel.Item>
             </Carousel>
           </ContentCarousel>
       </Header>

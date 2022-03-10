@@ -7,6 +7,8 @@ import Port5 from '../../images/5.jpeg'
 import Port6 from '../../images/6.png'
 import Port7 from '../../images/7.png'
 
+import Carrosel from '../Carousel/Carousel'
+
 import {
     WorkSection,
     ContentWork,
@@ -36,15 +38,15 @@ export default function Works() {
                  data-aos="fade-up"
                  data-aos-duration="800"
                 >VEJA UM POUCO DO QUE FAZEMOS</Tittle>
-                <Gallery>
-                    <ImageGalerry src={Port1}/>
+                
+                    <Carrosel />
+                    {/* <ImageGalerry src={Port1}/>
                     <ImageGalerry src={Port2}/>
                     <ImageGalerry src={Port3}/>
                     <ImageGalerry src={Port4}/>
                     <ImageGalerry src={Port5}/>
                     <ImageGalerry src={Port6}/>
-                    <ImageGalerry src={Port7}/>
-                </Gallery>
+                    <ImageGalerry src={Port7}/> */}
             </ContentWork>
         </WorkSection>
     )

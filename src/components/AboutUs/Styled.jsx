@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const AboutUsSection = styled.section`
-    height: 65vh;
+    height: 60vh;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #fff;
     font-family: 'Martel Sans', sans-serif;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ export const AboutUsSection = styled.section`
 `
 export const ContentAboutUs = styled.div`
     max-width: 1000px;
-    padding: 70px 0;
+    padding: 70px 5px;
     text-align: center;
 ` 
 export const SubTittle = styled.h2`

@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const WorkSection = styled.section`
     width: 100%;
     height: fit-content;
-    background-color: #fff;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     text-align: center;
 `;
 export const ContentWork = styled.div`
-    padding: 70px 10px;
-    width: 95%;
+    padding: 70px 0;
+    width: 100%;
 `;
 export const Gallery = styled.div`
     display: flex;

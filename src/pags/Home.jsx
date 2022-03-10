@@ -17,7 +17,6 @@ export default function Home() {
       <Works />
       <Description />
       <Values />
-      <Carousel />
       <Footer />
       <ButtonFixed />
     </>
