@@ -1,4 +1,4 @@
-import Feedbacks from "../components/Feedbacks/Feedbacks";
+import Carousel from "../components/Carousel/Carousel";
 import NavBar from "../components/NavBar/NavBar";
 import Works from "../components/Works/Works";
 import AboutUs from "../components/AboutUs/AboutUs";
@@ -17,7 +17,7 @@ export default function Home() {
       <Works />
       <Description />
       <Values />
-      <Feedbacks />
+      <Carousel />
       <Footer />
       <ButtonFixed />
     </>
