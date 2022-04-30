@@ -1,1 +1,3 @@
-Deploy: https://jovial-beaver-a2f8b9.netlify.app/
+Projeto freelancers para uma empresa de marcenaria
+
+Deploy: https://baiassouza.vercel.app/
